@@ -1,0 +1,112 @@
+/* Descendant Selector */
+
+div p {
+    color: blueviolet;
+}
+
+/* Child selector */
+
+div > p {
+    color: blue;
+}
+
+/* Adjacent Siliding Selector */
+
+div + p{
+    color: brown;
+}
+
+/* General Sibiling selector */
+
+div ~ p {
+    color: rgb(red, #04fd04, blue);
+}
+
+
+/* position 
+top, bottom, right, left*/
+
+.static {
+    color: hsl(hue, saturation, lightness);
+    position: static;
+    top: 10px;
+}
+
+.relative {
+    color: burlywood;
+    position: relative;
+    left: 19px;
+}
+
+.Absolute {
+    color: black;
+    position: absolute;
+    left: 56px;
+    right: 34px;
+}
+
+.topleft {
+    font-size: larger;
+    color: bisque;
+    position: absolute;
+}
+
+.middleleft {
+    font-size: larger;
+    color: blanchedalmond;
+    position: absolute;
+    top: 550px;
+}
+
+.bottomleft {
+    font-size: larger;
+    color: blanchedalmond;
+    position: absolute;
+    top: 795px;
+}
+
+.topcenter {
+    font-size: larger;
+    color: blanchedalmond;
+    position: absolute;
+    left: 330px;
+}
+
+.middlecenter {
+    font-size: larger;
+    color: blanchedalmond;
+    position: absolute;
+    left: 330px;
+    top: 550px;
+}
+
+.bottomcenter {
+    font-size: larger;
+    color: blanchedalmond;
+    position: absolute;
+    left: 330px;
+    top: 795px;
+}
+
+.topright {
+    font-size: larger;
+    color: blanchedalmond;
+    position: absolute;
+    left: 670px;
+}
+
+.middleright {
+    font-size: larger;
+    color: blanchedalmond;
+    position: absolute;
+    left: 725px;
+    top: 550px;
+}
+
+.bottomright {
+    font-size: larger;
+    color: blanchedalmond;
+    position: absolute;
+    left: 650px;
+    top: 795px;
+}

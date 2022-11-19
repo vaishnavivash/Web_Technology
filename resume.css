@@ -1,0 +1,15 @@
+h3{
+    color:aliceblue;
+    background-color:greenyellow;
+    }
+.s{
+    position: absolute;
+    right: 80px;
+    top: 820px;
+}
+img{
+    position:absolute;
+    right: 60px;
+    top: 10px;
+    width: 150px;
+}

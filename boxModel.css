@@ -1,0 +1,43 @@
+.box{
+    padding: 10px 20px 30px 40px;
+    border: 16px dotted red;
+    margin:80px;
+    background-color:aqua;
+}
+
+.rect{
+    border:2px solid green;
+    height: 100px;
+    width:200px;
+}
+.rect1{
+    border:2px solid red;
+    width:400px;
+    height: 200px;
+}
+.rect2{
+    border:2px solid orange;
+    width: 100px;
+    height: 200px;
+}
+.rect3{
+    border:2px solid rebeccapurple;
+    width:100px;
+    height: 200px;
+    display:inline-block;
+}
+.rect4{
+    border:2px solid yellow;
+    width:200px;
+    height: 400px;
+    display:inline-block;
+}
+body{
+    background-image: "C:\Users\HP\Downloads\pexels-emre-can-acer-2189702.jpg";
+    width:100px;
+    height:100%;
+    background-repeat: no repeat;
+    background-size: cover;
+}
+    
+
